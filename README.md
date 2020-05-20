@@ -1,1 +1,1 @@
-see http://nwgat.ninja/ics for guide
+see https://nwgat.ninja/ics/win10-ics for guide
