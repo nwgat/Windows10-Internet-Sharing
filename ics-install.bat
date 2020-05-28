@@ -4,6 +4,6 @@
 
 mkdir "%SystemRoot%\System32\WindowsPowerShell\v1.0\Modules\ics\
 copy ics.psm1 C:\Windows\System32\WindowsPowerShell\v1.0\Modules\ics\
-@powershell Set-ExecutionPolicy Unrestricted
-@powershell Import-Module ics
+"%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe"  Set-ExecutionPolicy Unrestricted
+"%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe"  Import-Module ics
 regedit.exe /S ics_persist.reg
